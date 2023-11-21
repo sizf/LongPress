@@ -316,7 +316,7 @@ showDialog(x, y, charNumbersIn) {
   }
 
   Gui, 99: +E0x08000000 ; prevent focus
-  Gui +AlwaysOnTop -Caption +Border
+  Gui +AlwaysOnTop -Caption +Border +ToolWindow
   Gui, Font, S10, Lucida Console
   if(vertical) {
     popupHeight -= 17
